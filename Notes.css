@@ -1,0 +1,117 @@
+#nav1{
+    background-color: #413a3a;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+#navleft{
+    display: flex;
+    padding: 0px 10px 0px 30px;
+}
+#navh32{
+    position: relative;
+    top: 5px;
+    left: 20px;
+}
+#navright{
+    position: absolute;
+    right: 200px;
+    top: 30px;
+}
+#NotesSearch{
+    border: 1px solid #5bda19;
+    border-radius: 5px;
+    padding: 3px 0px 3px 20px ;
+}
+#maindiv{
+    width: 58vw;
+    margin: auto;
+}
+
+#div1 {
+    padding-left: 70px; 
+    border-radius: 5px;
+    margin: 25px 30px;
+    border: 1px solid black;
+}
+#title{
+    padding: 5px 40px;
+    margin: 5px 0px 10px 0px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+#txtArea{
+    padding: 20px 20px 10px 20px;
+    font-size: 18px;
+    border: 1px solid lightseagreen;
+    border-radius: 5px;
+    width: 37vw;
+    height: 180px;
+}
+#div2 {
+    min-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding-left: 70px; */
+    border-radius: 5px;
+    margin: 25px 30px;
+    border: 2px solid black;
+}
+#showbtn{
+    margin: 15px auto;
+    font-size: 16px;
+    padding: 7px;
+    background-color: rgb(27 89 228)
+}
+.storedNotes {
+    border: 1px solid rgb(111, 111, 240);
+    margin: 14px;
+    border-radius: 5px;
+    padding: 0px 10px 10px 14px;
+    width: 190px;
+}
+#deletebtn{
+    font-size: 16px;
+    padding: 7px;
+    margin: 10px 35px;
+    background-color: rgb(27 89 228)
+}
+.btn{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #5bda19;
+    font-size: 15px;
+    padding: 3px 10px;
+}
+input:hover{
+    background-color: rgb(204, 198, 198);
+    color: black;
+}
+#addbtn{
+    font-size: 20px;
+    margin: 10px 35px;
+    background-color: rgb(27 89 228)
+}
+#addbtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#footer ul{
+    display: flex;
+    background-color: #d3ddf0;
+    height: 57px;
+    justify-content: center;
+    
+}
+#footer ul li {
+    list-style: none;
+    font-size: 21px;
+    padding: 19px 34px 13px 28px;
+}

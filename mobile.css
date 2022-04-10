@@ -1,0 +1,30 @@
+@media  all and (max-width:1100px){
+    #navright{
+        right: 60px;
+    }
+    #div1{
+        padding:40px;
+        justify-content: center;
+    }
+}
+
+@media  all and (max-width:660px){
+    #navleft{
+        justify-content: center;
+        /* justify-content: center; */
+    }
+    #navright{
+        text-align: center;
+        position: static;
+        padding-bottom: 15px;
+    }
+    #nav1{
+        display: block;
+    }
+    #div1{
+        text-align: center;
+    }
+    textarea{
+        margin: auto;
+    }
+}
